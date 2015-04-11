@@ -14,8 +14,8 @@ class ImageResizeService {
     UIGraphicsBeginImageContext(size)
     originalImage.drawInRect(CGRect(origin: CGPoint(x: 0.0, y: 0.0), size: size))
     let newImage = UIGraphicsGetImageFromCurrentImageContext()
+    UIGraphicsEndImageContext()
     
-    // TODO: Finish
-    return nil
+    return newImage
   }
 }

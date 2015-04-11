@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import Parse
-import Bolts
+//import Parse
+//import Bolts
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,27 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     // Override point for customization after application launch.
-    
-    // Initialize Parse.
-    Parse.setApplicationId(kApplicationID, clientKey: kClientKey)
-//
-//    let testObject = PFObject(className: "Pizza")
-//    testObject["Toppings"] = "Pepperoni"
-//    testObject.saveInBackgroundWithBlock { (finished, error) -> Void in
-//      println("Upload complete")
-//    }
-//    println("Upload started")
-    
-    let query = PFQuery(className: "Pizza")
-    query.whereKey("Toppings", equalTo: "Pepperoni")
-    query.findObjectsInBackgroundWithBlock { (results, error) -> Void in
-      if error != nil {
-        println(error.localizedDescription)
-      } else {
-        println(results.count)
-      }
-    }
-    
+//    Parse.setApplicationId(kApplicationID, clientKey: kClientKey)
+
     return true
   }
 

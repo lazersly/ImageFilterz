@@ -15,12 +15,6 @@
 		AD7F32341AD320C900FE4C53 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F32331AD320C900FE4C53 /* PhotoViewController.swift */; };
 		AD7F32361AD3310400FE4C53 /* FilterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F32351AD3310400FE4C53 /* FilterService.swift */; };
 		AD7F32381AD4725900FE4C53 /* ImageResizeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F32371AD4725900FE4C53 /* ImageResizeService.swift */; };
-		AD7F32401AD4754300FE4C53 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7F323A1AD4754300FE4C53 /* Bolts.framework */; };
-		AD7F32411AD4754300FE4C53 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7F323B1AD4754300FE4C53 /* Parse.framework */; };
-		AD7F32421AD4754300FE4C53 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7F323C1AD4754300FE4C53 /* ParseCrashReporting.framework */; };
-		AD7F32431AD4754300FE4C53 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7F323D1AD4754300FE4C53 /* ParseFacebookUtils.framework */; };
-		AD7F32441AD4754300FE4C53 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7F323E1AD4754300FE4C53 /* ParseFacebookUtilsV4.framework */; };
-		AD7F32451AD4754300FE4C53 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7F323F1AD4754300FE4C53 /* ParseUI.framework */; };
 		AD7F32491AD4768C00FE4C53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7F32481AD4768C00FE4C53 /* Foundation.framework */; };
 		AD7F324B1AD4769600FE4C53 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7F324A1AD4769600FE4C53 /* SystemConfiguration.framework */; };
 		AD7F324D1AD476B300FE4C53 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7F324C1AD476B300FE4C53 /* AudioToolbox.framework */; };
@@ -34,6 +28,9 @@
 		AD7F325D1AD476FD00FE4C53 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7F325C1AD476FD00FE4C53 /* libz.dylib */; };
 		AD7F325F1AD4770700FE4C53 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7F325E1AD4770700FE4C53 /* libsqlite3.dylib */; };
 		AD7F32621AD48E0600FE4C53 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F32611AD48E0600FE4C53 /* Constants.swift */; };
+		AD7F32641AD5C1EB00FE4C53 /* ParseSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F32631AD5C1EB00FE4C53 /* ParseSample.swift */; };
+		ADCCC4B31AD87F0F00CAD0EA /* FilteredImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCCC4B21AD87F0F00CAD0EA /* FilteredImageCollectionViewCell.swift */; };
+		ADCCC4B51AD898C700CAD0EA /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADCCC4B41AD898C700CAD0EA /* photo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +76,9 @@
 		AD7F325C1AD476FD00FE4C53 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		AD7F325E1AD4770700FE4C53 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		AD7F32611AD48E0600FE4C53 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AD7F32631AD5C1EB00FE4C53 /* ParseSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseSample.swift; sourceTree = "<group>"; };
+		ADCCC4B21AD87F0F00CAD0EA /* FilteredImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteredImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		ADCCC4B41AD898C700CAD0EA /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +98,6 @@
 				AD7F324D1AD476B300FE4C53 /* AudioToolbox.framework in Frameworks */,
 				AD7F324B1AD4769600FE4C53 /* SystemConfiguration.framework in Frameworks */,
 				AD7F32491AD4768C00FE4C53 /* Foundation.framework in Frameworks */,
-				AD7F32451AD4754300FE4C53 /* ParseUI.framework in Frameworks */,
-				AD7F32411AD4754300FE4C53 /* Parse.framework in Frameworks */,
-				AD7F32421AD4754300FE4C53 /* ParseCrashReporting.framework in Frameworks */,
-				AD7F32431AD4754300FE4C53 /* ParseFacebookUtils.framework in Frameworks */,
-				AD7F32401AD4754300FE4C53 /* Bolts.framework in Frameworks */,
-				AD7F32441AD4754300FE4C53 /* ParseFacebookUtilsV4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,12 +132,14 @@
 		AD7F32101AD3206700FE4C53 /* ImageFilterz */ = {
 			isa = PBXGroup;
 			children = (
+				AD7F32171AD3206700FE4C53 /* Main.storyboard */,
 				AD7F32131AD3206700FE4C53 /* AppDelegate.swift */,
+				AD7F32631AD5C1EB00FE4C53 /* ParseSample.swift */,
 				AD7F32611AD48E0600FE4C53 /* Constants.swift */,
 				AD7F32331AD320C900FE4C53 /* PhotoViewController.swift */,
 				AD7F32351AD3310400FE4C53 /* FilterService.swift */,
 				AD7F32371AD4725900FE4C53 /* ImageResizeService.swift */,
-				AD7F32171AD3206700FE4C53 /* Main.storyboard */,
+				ADCCC4B21AD87F0F00CAD0EA /* FilteredImageCollectionViewCell.swift */,
 				AD7F321A1AD3206700FE4C53 /* Images.xcassets */,
 				AD7F321C1AD3206700FE4C53 /* LaunchScreen.xib */,
 				AD7F32111AD3206700FE4C53 /* Supporting Files */,
@@ -154,6 +150,7 @@
 		AD7F32111AD3206700FE4C53 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ADCCC4B41AD898C700CAD0EA /* photo.jpg */,
 				AD7F32601AD4785100FE4C53 /* Frameworks */,
 				AD7F32391AD4754300FE4C53 /* Parse Library */,
 				AD7F32121AD3206700FE4C53 /* Info.plist */,
@@ -293,6 +290,7 @@
 			files = (
 				AD7F32191AD3206700FE4C53 /* Main.storyboard in Resources */,
 				AD7F321E1AD3206700FE4C53 /* LaunchScreen.xib in Resources */,
+				ADCCC4B51AD898C700CAD0EA /* photo.jpg in Resources */,
 				AD7F321B1AD3206700FE4C53 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,8 +310,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD7F32621AD48E0600FE4C53 /* Constants.swift in Sources */,
+				ADCCC4B31AD87F0F00CAD0EA /* FilteredImageCollectionViewCell.swift in Sources */,
 				AD7F32361AD3310400FE4C53 /* FilterService.swift in Sources */,
 				AD7F32381AD4725900FE4C53 /* ImageResizeService.swift in Sources */,
+				AD7F32641AD5C1EB00FE4C53 /* ParseSample.swift in Sources */,
 				AD7F32141AD3206700FE4C53 /* AppDelegate.swift in Sources */,
 				AD7F32341AD320C900FE4C53 /* PhotoViewController.swift in Sources */,
 			);
@@ -519,6 +519,7 @@
 				AD7F322F1AD3206700FE4C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD7F32301AD3206700FE4C53 /* Build configuration list for PBXNativeTarget "ImageFilterzTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +528,7 @@
 				AD7F32321AD3206700FE4C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
